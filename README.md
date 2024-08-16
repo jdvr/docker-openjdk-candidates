@@ -28,7 +28,7 @@ To build the Docker image, follow these steps:
 
     ```shell
     cd docker-openjdk-candidates
-    git switch `openjdk-23` # < --- target version
+    git switch openjdk-24  --detach # < --- target version
     ```
 
 3. Run the Makefile:
@@ -44,10 +44,10 @@ To build the Docker image, follow these steps:
 Once the Docker image is built, you can run it using the following command:
 
 ```shell
-➜ docker run --rm -it openjdk-23
-openjdk version "23" 2024-09-17
-OpenJDK Runtime Environment (build 23+36-2368)
-OpenJDK 64-Bit Server VM (build 23+36-2368, mixed mode, sharing)
+> docker run --rm -it openjdk-24
+openjdk version "24-ea" 2025-03-18
+OpenJDK Runtime Environment (build 24-ea+11-1194)
+OpenJDK 64-Bit Server VM (build 24-ea+11-1194, mixed mode, sharing)
 ```
 
 
