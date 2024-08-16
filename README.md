@@ -50,11 +50,6 @@ OpenJDK Runtime Environment (build 24-ea+11-1194)
 OpenJDK 64-Bit Server VM (build 24-ea+11-1194, mixed mode, sharing)
 ```
 
-
-## Contributing
-
-If you would like to contribute to this project, please follow the guidelines in [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
