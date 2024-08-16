@@ -4,6 +4,10 @@ This repository contains a Makefile and a Dockerfile that allow for easy buildin
 
 Latest Release Cadidate: [JDK 23](https://jdk.java.net/23/)
 
+Available versions:
+- [OpenJDK 23](https://github.com/jdvr/docker-openjdk-candidates/tree/openjdk-23) - `openjdk-23`
+- [EA OpenJDK 24](https://github.com/jdvr/docker-openjdk-candidates/tree/openjdk-24) - `openjdk-24`
+
 ## Prerequisites
 
 Before building the Docker image, ensure that you have the following prerequisites installed:
@@ -24,6 +28,7 @@ To build the Docker image, follow these steps:
 
     ```shell
     cd docker-openjdk-candidates
+    git switch `openjdk-23` # < --- target version
     ```
 
 3. Run the Makefile:
